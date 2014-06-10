@@ -1,13 +1,7 @@
 # !/usr/bin/env python
-import os
+
 from setuptools import setup, find_packages
 
-
-def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
-
-
-README = read('README.rst')
 
 setup(
     name='import_helpers',
@@ -17,7 +11,6 @@ setup(
     description='Easy importing helpers',
     license='MIT',
     url='https://github.com/mturilin/import_helpers',
-    long_description=README,
     packages=find_packages(),
     zip_safe=False,
     classifiers=[

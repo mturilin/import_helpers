@@ -6,9 +6,9 @@ from setuptools import setup, find_packages
 setup(
     name='import_helpers',
     version='0.1',
-    author='mikhail turilin',
-    author_email='mikhail@turilin.com',
-    description='Easy importing helpers',
+    author='mikhail.turilin',
+    author_email='mturilin@gmail.com',
+    description='Python import helpers',
     license='MIT',
     url='https://github.com/mturilin/import_helpers',
     packages=find_packages(),

@@ -40,6 +40,10 @@ def class_for_name(class_name):
     return attr
 
 
+def class_full_name(cls):
+    return cls.__module__ + "." + cls.__name__    
+
+
 def build_funcmodule_map(datasource_map):
     funcs = defaultdict(dict)
     for ds_name, f_name in datasource_map.iteritems():
